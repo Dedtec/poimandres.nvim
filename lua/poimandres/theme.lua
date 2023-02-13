@@ -42,7 +42,7 @@ function M.get(config)
     FoldColumn = { fg = p.blueGray2 },
     Folded = { fg = p.text, bg = groups.panel },
     IncSearch = { fg = p.background3, bg = p.blue2 },
-    LineNr = { fg = p.blueGray3 },
+    LineNr = { fg = p.background1 },
     MatchParen = { bg = p.blueGray3, fg = p.background3 },
     ModeMsg = { fg = p.blue3 },
     MoreMsg = { fg = p.blue3 },
@@ -125,7 +125,7 @@ function M.get(config)
     SpecialComment = { fg = p.blueGray1 }, -- special things inside a comment
     -- Debug         = { }, --    debugging statements
 
-    Comment = { fg = p.blueGray1 }, -- (preferred) any special symbol
+    Comment = { fg = p.comment }, -- (preferred) any special symbol
 
     Underlined = { style = 'underline' }, -- (preferred) text that stands out, HTML links
     Bold = { style = 'bold' },
@@ -333,7 +333,7 @@ function M.get(config)
     NvimTreeFileRenamed = { fg = p.blueGray3 },
     NvimTreeFileStaged = { fg = p.blue1 },
     NvimTreeFolderIcon = { fg = p.blue3 },
-    NvimTreeFolderName = { fg = p.blue3 },
+    NvimTreeFolderName = { fg = p.yellow },
     NvimTreeGitDeleted = { fg = groups.git_delete },
     NvimTreeGitDirty = { fg = groups.git_dirty },
     NvimTreeGitIgnored = { fg = groups.git_ignore },
@@ -387,13 +387,13 @@ function M.get(config)
     PounceMatch = { link = 'Search' },
 
     -- nvim-telescope/telescope.nvim
-    TelescopeBorder = { fg = groups.border },
+    TelescopeBorder = { fg = p.teal1 },
     TelescopeMatching = { fg = p.teal1 },
     TelescopeNormal = { fg = p.text },
     TelescopePromptNormal = { fg = p.text },
     TelescopePromptPrefix = { fg = p.blueGray1 },
-    TelescopeSelection = { fg = p.text, bg = p.blueGray1 },
-    TelescopeSelectionCaret = { fg = p.pink2, bg = p.blueGray1 },
+    TelescopeSelection = { fg = p.teal1 },
+    TelescopeSelectionCaret = { fg = p.teal1 },
     TelescopeTitle = { fg = p.blueGray2 },
 
     -- phaazon/hop.nvim

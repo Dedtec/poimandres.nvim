@@ -15,7 +15,7 @@ local config = {
     background = 'background2',
     panel = 'background3',
     border = 'background3',
-    comment = 'blueGray3',
+    comment = 'comment',
     link = 'blue3',
     punctuation = 'blue3',
 

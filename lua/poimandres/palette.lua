@@ -15,10 +15,11 @@ local variants = {
     blueGray1 = '#A6ACCD',
     blueGray2 = '#767C9D',
     blueGray3 = '#506477',
+    comment = '#515566',
     background1 = '#303340',
     background2 = '#1B1E28',
     background3 = '#171922',
-    text = '#E4F0FB',
+    text = '#A6ACCD',  -- #E4F0FB
     white = '#FFFFFF',
     none = 'NONE',
   },
